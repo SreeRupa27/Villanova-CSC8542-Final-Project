@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Social Media Brainteasers",
+    "description": "????????",
+    "version": "1.0",
+    "action": {
+      "default_popup": "timer_display.html",
+      "default_icon": "brainteaserIcon.png"
+    },
+    "background": {
+      "service_worker": "timer.js"
+    },
+    "permissions": [
+      "tabs"
+    ]
+  }
